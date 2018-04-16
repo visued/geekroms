@@ -1,0 +1,265 @@
+@charset "UTF-8";
+body, html { height: 100%; }
+
+ul, ol { list-style-type: none; }
+
+html { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body { min-height: 100%; font-size: 13px; line-height: 1.6; color: #333; font-family: "opensans-regular-webfont", Arial, sans-serif; font-weight: normal; background-image: url("../img/clound.png"); background-repeat: repeat; }
+
+h1 { font-size: 46px; line-height: 1.2; font-family: "opensans-bold-webfont", Arial, sans-serif; font-weight: normal; }
+h1.is-small { font-size: 24px; margin-left: 10px;}
+h1.is-medium { font-size: 30px; letter-spacing: -0.55px; }
+
+h2 { font-size: 24px; letter-spacing: -0.5px; font-family: "opensans-bold-webfont", Arial, sans-serif; font-weight: normal; }
+h2.is-medium { font-size: 22px; font-family: "opensans-regular-webfont", Arial, sans-serif; font-weight: normal; }
+h2.is-small { display: -webkit-inline-box; display: -webkit-inline-flex; display: -ms-inline-flexbox; display: inline-flex; margin-bottom: 10px; font-size: 18px; letter-spacing: -0.5px; }
+
+h3 { font-size: 13px; font-family: "opensans-light-webfont", Arial, sans-serif; font-weight: normal; }
+
+a { display: -webkit-inline-box; display: -webkit-inline-flex; display: -ms-inline-flexbox; display: inline-flex; color: #3873f9; text-decoration: none; -webkit-transition: all 0.3s ease; transition: all 0.3s ease; cursor: pointer; font-family: "opensans-regular-webfont", Arial, sans-serif; font-weight: normal; }
+a:active, a:visited, a:focus { color: #3873f9; outline: 0; }
+a:hover { color: #9bb9fc; }
+
+.logotipo { padding-top: 80px; margin-bottom: 0px; text-align: center; background: url("../img/logotipo.png") bottom center; color: #fff; height: 300px; border-radius: 30px; background-size: cover;}
+
+.out { min-height: -webkit-calc(100% - 162px); min-height: calc(100% - 162px); display: -webkit-box; display: -webkit-flex; /*display: -ms-flexbox; display: flex;*/ -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; }
+
+
+.header { background-color: #3d67c8; border-radius: 10px;}
+.header.is-gradient { background-color: #3b62c4; background-image: -webkit-gradient(linear, left top, left bottom, from(#3b62c4), to(#3d66c9)); background-image: -webkit-linear-gradient(#3b62c4, #3d66c9); background-image: linear-gradient(#3b62c4, #3d66c9);}
+
+.section { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap;}
+
+#interface {width: 1000px; margin: 15px auto 15px auto; background-color: #fff; box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8); border-radius: 5px 5px 5px 5px;}
+
+.tabela th{
+    text-align: left;
+}
+
+ul#jogos {width: 700px; margin: 0px auto; padding: 50px; overflow: hidden; list-style: none; }
+
+ul#jogos li { float: left; width: 200px; height: 200px; margin: 10px; border: 5px solid black; background-color: #ffffff; box-shadow: 1px 1px 3px rgba(0,0,0.4) }
+
+/* ul#jogos li:hover {
+    -webkit-transform: scale(1.5);
+    -webkit-transition: all .5s ease-in;
+}
+ */
+
+
+ul#jogos li#jogo1{ 
+    background: url('../_imagens/super-mario-world.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 200px 200px;
+    background-color: #ffffff;
+}
+
+   
+ul#jogos li#jogo1:hover {
+    background: url('../_imagens/super-mario-world_game.jpg') no-repeat;
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#jogos li#jogo2{ 
+    background: url('../_imagens/alphamission.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 200px 200px;
+    background-color: #ffffff;
+ }
+
+ul#jogos li#jogo2:hover {
+    background: url('../_imagens/alphamission_game.jpg') no-repeat;
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#jogos li#jogo3{ 
+    background: url('../_imagens/sonicthehedehog.jpg') no-repeat; 
+    background-position: 50% 50%;
+    background-size: 200px 200px;
+    background-color: #ffffff;
+}
+
+ul#jogos li#jogo3:hover {
+    background: url('../_imagens/sonicthehedehog_game.jpg') no-repeat;
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#jogos li#jogo4{
+    background: url('../_imagens/contra3.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 200px 200px;
+    background-color: #ffffff;
+  }
+
+ul#jogos li#jogo4:hover {
+    background: url('../_imagens/contra3_game.jpg') no-repeat;
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#jogos li#jogo5{
+    background: url('../_imagens/lode-runer.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 200px 200px;
+    background-color: #ffffff;
+ }
+
+ul#jogos li#jogo5:hover {
+    background: url('../_imagens/lode-runer_game.jpg') no-repeat;
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#jogos li#jogo6{
+    background: url('../_imagens/streetsofrage2.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 200px 200px;
+    background-color: #ffffff;
+ }
+
+ul#jogos li#jogo6:hover {
+    background: url('../_imagens/streetsofrage2_game.jpg') no-repeat;
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+} 
+
+ul#jogos li#jogo7{
+    background: url('../_imagens/donkey-kong-country-snes.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 200px 200px;
+    background-color: #ffffff;
+ }
+
+ul#jogos li#jogo7:hover {
+    background: url('../_imagens/donkey-kong-country-snes_game.jpg') no-repeat;
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+} 
+
+ul#jogos li#jogo8{
+    background: url('../_imagens/castleexcellent.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 200px 200px;
+    background-color: #ffffff;
+}
+
+ul#jogos li#jogo8:hover {
+    background: url('../_imagens/castleexcellent_game.jpg') no-repeat;
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+} 
+ul#jogos li#jogo9{
+    background: url('../_imagens/the-adventures-of-batman-robin.jpg') no-repeat;
+    background-position: 50% 50%; 
+    background-size: 200px 200px;
+    background-color: #ffffff; }
+
+ul#jogos li#jogo9:hover {
+    background: url('../_imagens/the-adventures-of-batman-robin_game.jpg') no-repeat;
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+} 
+
+
+ul#jogos li span {
+    color: black;
+    background-color: goldenrod;
+    border-radius: 0px 10px 0px 0px;
+    font-size: 9pt;
+    line-height: 380px;
+    padding: 6px 6px;
+}
+
+
+#container{
+	display: block;
+	width: 349px;
+	float: left;
+    padding: 0px 15px 15px 0px;
+    margin-left: 50px;
+    margin-top: 10px;    
+}
+
+#history_right{
+    display: block;
+    width: 349px;
+    float: right;
+    padding: 20px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.footer {background-image: url("../img/footer.jpg"); background-repeat: repeat; padding: 20px 0; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center;}
+.footer_child{background-color: chartreuse; padding: 8px 0; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; border-radius: 30px;}
+#footer_info{
+    color: chartreuse; 
+    margin-left: 45%;
+    font-size: 15px;
+}
+
+.nav { position: center; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; text-transform: uppercase; }
+.nav__el { position: relative; }
+.nav__el:last-child a { padding-right: 0; }
+.nav__el:nth-child(2):hover, .nav__el:nth-child(3):hover { background-color: #fff; -webkit-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0; }
+.nav__el:nth-child(2):hover .dropdown, .nav__el:nth-child(3):hover .dropdown { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
+.nav__el:nth-child(2):hover a, .nav__el:nth-child(3):hover a { color: #4875e8; }
+.nav__el:nth-child(2):hover a i:after, .nav__el:nth-child(3):hover a i:after { border-color: #4875e8 transparent transparent transparent; }
+.nav__link { position: relative; padding: 13px 20px; color: #fff; font-size: 15px; cursor: pointer; font-family: "opensans-bold-webfont", Arial, sans-serif; font-weight: normal; }
+.nav__link:focus, .nav__link:visited, .nav__link:active { color: #fff; }
+.nav__link:hover { color: #4875e8; }
+.nav__link:hover i:after { border-color: #4875e8 transparent transparent transparent; }
+
+.dropdown { display: none; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; position: absolute; top: 50px; left: 0; width: 300px; min-width: 130px; background-color: #fff; cursor: pointer; z-index: 10; -webkit-box-shadow: 0 15px 20px 1px rgba(0, 0, 0, 0.2); box-shadow: 0 15px 20px 1px rgba(0, 0, 0, 0.2); }
+.dropdown.is-plain { width: auto; }
+.dropdown__list { width: 50%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; }
+.dropdown__list.is-full { width: 100%; }
+.dropdown__link { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; padding: 6px 18px; text-transform: none; color: #333 !important; cursor: pointer; }
+.dropdown__link:hover { color: #fff !important; background-color: #689bf9; }
+.dropdown__link:active, .dropdown__link:visited, .dropdown__link:focus { color: #333; }
+.dropdown.is-small { position: relative; width: 290px; background-color: #fff; padding: 15px; -webkit-border-radius: 5px; border-radius: 5px; }
+.dropdown.is-small:after { position: absolute; right: 50%; top: 0; width: 0; height: 0; content: ""; border-left: 8px solid transparent; border-right: 8px solid transparent; border-bottom: 8px solid #fff; }
+.dropdown.is-small .table td { vertical-align: top; }
+.dropdown.is-more { width: 290px; top: 35px; left: -7px; padding: 16px 20px; line-height: 1.4; -webkit-border-radius: 4px; border-radius: 4px; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5); box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5); -webkit-box-sizing: border-box; box-sizing: border-box; cursor: default; }
+.dropdown.is-more:after { position: absolute; right: 30%; top: -8px; width: 0; height: 0; content: ""; border-left: 8px solid transparent; border-right: 8px solid transparent; border-bottom: 8px solid #fff; }
+.dropdown.is-more.is-visible { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
+
+/* Formulário */
+
+#contato{
+    width: 500px; 
+    margin: auto; 
+   }
+input:hover{
+   background-color: #ddd;
+}
+textarea:hover {
+   background-color: #ddd;
+}
+legend {
+   color: #888;
+   font-weight: bold;
+   font-size: 13pt;
+   font-family: Verdana, Geneva, sans-serif;
+}
+fieldset {
+   border-bottom-color: gray;
+   margin: 20px;
+}
+
+fieldset#sexo {
+   width: 200px;
+}
+fieldset#usuario {
+   background: url("../_imagens/icone-contato.png") no-repeat 95% 95%;
+}
+
+
+#botao {
+    width: 100px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
